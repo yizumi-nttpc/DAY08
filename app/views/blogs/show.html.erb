@@ -10,5 +10,10 @@
   <%= @blog.content %>
 </p>
 
+<p>
+  <strong>Name:</strong>
+  <%= @blog.user.name %>
+</p>
+
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
 <%= link_to 'Back', blogs_path %>
