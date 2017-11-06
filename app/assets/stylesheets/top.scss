@@ -34,7 +34,7 @@ header ul:after {
   padding-bottom: 15%;
   width: 100%;
   background-size: cover;
-  background-image: url("images-master/header.jpg");
+  background-image:  url("header.jpg");
   background-attachment: fixed;
 }
 
@@ -55,18 +55,6 @@ header ul:after {
   background-color: #e9e9e9;
   padding: 80px;
   padding-bottom: 185px;
-}
-
-.function-images {
-  width: 100%;
-  display: table;
-  margin-top: 60px;
-  table-layout: fixed;
-}
-
-.function-image {
-  display: table-cell;
-  width: 100%;
 }
 
 footer {
